@@ -1,0 +1,11 @@
+## Para arq. de configuração usa o .properties ou este (yaml)
+## ambiente de teste - h2
+spring:
+    datasource:
+        url: jdbc:h2:mem::databaseName
+        driverClassName: org.h2.Driver
+    jpa:
+        hibernate:            
+            database-platform: org.hibernate.dialect.H2Dialect
+            #show-sql: true
+            #ddl-auto: create-drop
