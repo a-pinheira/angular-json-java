@@ -1,0 +1,24 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Caneta BIC Azul",
+      "preco": 6.1
+    },
+    {
+      "id": 2,
+      "nome": "Notebook Dell v Pro",
+      "preco": 6549.1
+    },
+    {
+      "id": 3,
+      "nome": "Impressra HP",
+      "preco": 410.89
+    },
+    {
+      "nome": "Geladeira",
+      "preco": "2600.99",
+      "id": 4
+    }
+  ]
+}

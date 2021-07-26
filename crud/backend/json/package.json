@@ -1,0 +1,25 @@
+{
+  "name": "ang-json-java",
+  "version": "1.0.0",
+  "description": "API Angular consumindo um JSon",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3001"
+  },
+  "keywords": [],
+  "author": "Simone",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+<<<<<<< HEAD
+<<<<<<< HEAD
+  }
+  
+=======
+  }  
+>>>>>>> 99ae99de898eab75d60030c8215b1103681f18dc
+}
+=======
+  }
+}
+>>>>>>> eabb65e8f6aea8be7e556740313351647a542132
