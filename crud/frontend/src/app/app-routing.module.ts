@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from "./views/product-crud/product-crud.component";
+
 /*Primeiro Objeto: array do tipo Routes*/
 const routes: Routes = [
   {
@@ -17,6 +18,11 @@ const routes: Routes = [
     path: "products",
     /**Segunda Rota - Componente de Cadastro de Produto*/
     component: ProductCrudComponent
+  },
+  {
+    path: "products/create",
+    component: ProductCrudComponent
+
   }
 ];
 @NgModule({
