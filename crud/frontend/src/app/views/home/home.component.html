@@ -5,4 +5,12 @@
     <mat-card-subtitle class="subtitle"> 
         Sistema para exemplificar a construção de um cadastor em @Angular
     </mat-card-subtitle>
+    <ul>
+        <!--Pode usar com 2 elemento < var > neste caso em, para numeros e outro paramento para testo -->
+        <!-- <li *myFor="let n em [1, 2, 3] usando 'text'"> -->
+        <!-- Este será o template que estara envolvido no container que esta sendo executador dentro do for em red.directive.rs-->
+        <li *myFor="let n em [1, 2, 3]"> {{ n }}        </li>
+    </ul>
+
+    <!-- <tag *struct="let a"> {{ a }} </tag>-->
 </mat-card>
