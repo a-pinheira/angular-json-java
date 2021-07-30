@@ -16,10 +16,12 @@ import { RedDirective } from './directives/red.directive';
 import { ForDirective } from './directives/for.directive';
 /** Imports Material Design */
 import { MatToolbarModule } from '@angular/material/toolbar';
-import {MatSidenavModule} from '@angular/material/sidenav';
+import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatCardModule } from '@angular/material/card';
-import {MatListModule} from  '@angular/material/list';
+import { MatListModule } from  '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,8 +43,11 @@ import { MatButtonModule } from '@angular/material/button';
     MatSidenavModule,
     MatListModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSnackBarModule
   ],
+  // é aqui em providers q se coloca os services qnd tem a
+  // necessidade deles aparecerem fora do módulo
   providers: [],
   bootstrap: [AppComponent]
 })

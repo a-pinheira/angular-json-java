@@ -1,6 +1,14 @@
-<p [id]="atributoX">product-create works!</p>
+<p>product-create works!</p>
 
-<!-- fazer o bind para a funçao click, com o [ fazerAlgo ] -->
-<button (click)="fazerAlgo()">
-    Fazer Algo XPTO!
-</button> 
+<!-- <p [id]="atributoX">product-create works!</p>    fazer o bind para a funçao click, com o [ fazerAlgo ]
+<button (click)="fazerAlgo()">   Fazer Algo XPTO! </button>  -->
+
+<button mat-raised-button (click)="createProduct()" color="primary"> 
+    <!-- Novo Produto - Salvar -->
+    Salvar Produto 
+</button>
+
+<button mat-raised-button (click)="cancel()"> 
+    <!-- Novo Produto - Salvar -->
+    Cancelar
+</button>
