@@ -16,9 +16,14 @@
       "preco": 410.89
     },
     {
+      "id": 4,
+      "nome": "Notebook MacBook",
+      "preco": 6800.00
+    },
+    {
       "nome": "Geladeira",
       "preco": "2600.99",
-      "id": 4
+      "id": 5
     }
   ]
 }
