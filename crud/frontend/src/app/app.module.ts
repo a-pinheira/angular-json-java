@@ -15,7 +15,7 @@ import { ProductCreateComponent } from './components/product/product-create/prod
 import { RedDirective } from './directives/red.directive';
 import { ForDirective } from './directives/for.directive';
 import { HttpClientModule } from '@angular/common/http';
-import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+//import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 /** Imports Material Design */
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -54,7 +54,8 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
   ],
   // é aqui em providers q se coloca os services qnd tem a
   // necessidade deles aparecerem fora do módulo
-  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
+  //providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
