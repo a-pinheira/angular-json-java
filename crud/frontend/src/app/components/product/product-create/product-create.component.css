@@ -1,0 +1,11 @@
+form {
+    display: flex;
+    /*Deixa cada input debaixo um do outro, em vez de ser no lado*/
+    flex-direction: column;
+}
+
+button {
+    /*margin-right:  15px;
+    margin-top: 20px; ou para não ter 2 propriedades: */
+    margin:  20px 15px 0px 0px;
+}

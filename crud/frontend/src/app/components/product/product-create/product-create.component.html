@@ -1,14 +1,28 @@
-<p>product-create works!</p>
+<mat-card> 
+    <mat-card-title> Novo Produto </mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome" 
+                [(ngModel)]="product.name" name="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Preço (R$)" 
+                [(ngModel)]="product.price" name="price">
+        </mat-form-field>
+    </form>
 
-<!-- <p [id]="atributoX">product-create works!</p>    fazer o bind para a funçao click, com o [ fazerAlgo ]
-<button (click)="fazerAlgo()">   Fazer Algo XPTO! </button>  -->
+    <!-- <p [id]="atributoX">product-create works!</p>    fazer o bind para a funçao click, com o [ fazerAlgo ]
+    <button (click)="fazerAlgo()">   Fazer Algo XPTO! </button>  -->
 
-<button mat-raised-button (click)="createProduct()" color="primary"> 
-    <!-- Novo Produto - Salvar -->
-    Salvar Produto 
-</button>
+    <button mat-raised-button (click)="createProduct()" color="primary"> 
+        <!-- Novo Produto - Salvar -->
+        Salvar Produto 
+    </button>
+    
+    <button mat-raised-button (click)="cancel()"> 
+        <!-- Novo Produto - Salvar -->
+        Cancelar
+    </button>
+</mat-card>
 
-<button mat-raised-button (click)="cancel()"> 
-    <!-- Novo Produto - Salvar -->
-    Cancelar
-</button>
+
