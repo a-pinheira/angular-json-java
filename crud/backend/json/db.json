@@ -44,6 +44,16 @@
       "id": 9,
       "name": "Produto testando",
       "price": "0.99"
+    },
+    {
+      "name": "Produto Teste",
+      "price": 125.98,
+      "id": 10
+    },
+    {
+      "name": "bla",
+      "price": "12",
+      "id": 11
     }
   ]
 }

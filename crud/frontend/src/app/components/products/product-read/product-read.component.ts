@@ -11,14 +11,13 @@ export class ProductReadComponent implements OnInit {
 
   products!: Product[];
          
-  //products: Product[]
   constructor(private productService: ProductService) { }
 
   ngOnInit(): void {
-    //Injeta para consumir
+    //Injeta para consumir o componente
     this.productService.read().subscribe(products => {
-      this.products = this.products
-      console.log(products);      
+      this.products = products
+      console.log(products)
     })
   }
 

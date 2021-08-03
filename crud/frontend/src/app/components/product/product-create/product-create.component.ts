@@ -12,8 +12,8 @@ export class ProductCreateComponent implements OnInit {
  //atributoX = "qualquer"
 
  product: Product = {
-   name: 'Produto Teste',
-   price: 125.98
+   name: '',
+   price: null
  }
   //injetando um service
   constructor(private productService: ProductService,
