@@ -9,8 +9,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductReadComponent implements OnInit {
 
-  products: Product[]
-      = [];
+  products!: Product[];
+         
   //products: Product[]
   constructor(private productService: ProductService) { }
 
