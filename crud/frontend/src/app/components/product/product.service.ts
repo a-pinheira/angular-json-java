@@ -27,7 +27,10 @@ export class ProductService {
     //interação com o backend
     //mandar requisição http para o back
     return this.Http.post<Product>(this.baseUrl, product)
+  }
 
-
+  read(): Observable<Product[]> {
+    return this.Http.get<Product[]>(this.baseUrl)
+    //return this.http.get<Product[]>(this.baseUrl)
   }
 }

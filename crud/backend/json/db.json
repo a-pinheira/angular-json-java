@@ -21,24 +21,29 @@
       "preco": 6800
     },
     {
+      "id": 5,
       "nome": "Geladeira",
-      "preco": "2600.99",
-      "id": 5
+      "preco": "2600.99"
     },
     {
+      "id": 6,
       "name": "Produto Teste",
-      "price": 125.98,
-      "id": 6
+      "price": 125.98
     },
     {
+      "id": 7,
       "name": "Produto Teste",
-      "price": 125.98,
-      "id": 7
+      "price": 125.98
     },
     {
+      "id": 8,
       "name": "Veio do Formulário",
-      "price": "9.99",
-      "id": 8
+      "price": "9.99"
+    },
+    {
+      "id": 9,
+      "name": "Produto testando",
+      "price": "0.99"
     }
   ]
 }

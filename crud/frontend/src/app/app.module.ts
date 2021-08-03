@@ -27,6 +27,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { ProductReadComponent } from './components/products/product-read/product-read.component';
 
 
 
@@ -41,6 +42,7 @@ import { MatInputModule } from '@angular/material/input';
     ProductCreateComponent,
     RedDirective,
     ForDirective,
+    ProductReadComponent,
   ],
   imports: [
     BrowserModule,
