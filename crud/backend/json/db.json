@@ -16,9 +16,49 @@
       "preco": 410.89
     },
     {
+      "id": 4,
+      "nome": "Notebook MacBook",
+      "preco": 6800
+    },
+    {
+      "id": 5,
       "nome": "Geladeira",
-      "preco": "2600.99",
-      "id": 4
+      "preco": "2600.99"
+    },
+    {
+      "id": 6,
+      "name": "Produto Teste",
+      "price": 125.98
+    },
+    {
+      "id": 7,
+      "name": "Produto Teste",
+      "price": 125.98
+    },
+    {
+      "id": 8,
+      "name": "Veio do Formulário",
+      "price": "9.99"
+    },
+    {
+      "id": 9,
+      "name": "Produto testando",
+      "price": "0.99"
+    },
+    {
+      "name": "Produto Teste",
+      "price": 125.98,
+      "id": 10
+    },
+    {
+      "name": "bla",
+      "price": "12",
+      "id": 11
+    },
+    {
+      "name": "gatGets",
+      "price": "67.08",
+      "id": 12
     }
   ]
 }
