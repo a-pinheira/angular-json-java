@@ -54,6 +54,11 @@
       "name": "bla",
       "price": "12",
       "id": 11
+    },
+    {
+      "name": "gatGets",
+      "price": "67.08",
+      "id": 12
     }
   ]
 }
