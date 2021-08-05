@@ -32,33 +32,28 @@
     },
     {
       "id": 7,
-      "name": "Produto Teste",
-      "price": 125.98
-    },
-    {
-      "id": 8,
       "name": "Veio do Formulário",
       "price": "9.99"
     },
     {
-      "id": 9,
+      "id": 8,
       "name": "Produto testando",
       "price": "0.99"
     },
     {
+      "id": 9,
       "name": "Produto Teste",
-      "price": 125.98,
-      "id": 10
+      "price": 125.98
     },
     {
+      "id": 10,
       "name": "bla",
-      "price": "12",
-      "id": 11
+      "price": "12"
     },
     {
+      "id": 11,
       "name": "gatGets",
-      "price": "67.08",
-      "id": 12
+      "price": "67.08"
     }
   ]
 }
