@@ -12,6 +12,7 @@ export interface ProductRead2Item {
 
 // TODO: replace this with real data from your application
 const EXAMPLE_DATA: ProductRead2Item[] = [
+  // lista mokada dos dados
   {id: 1, name: 'Hydrogen'},
   {id: 2, name: 'Helium'},
   {id: 3, name: 'Lithium'},
