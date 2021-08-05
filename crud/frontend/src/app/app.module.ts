@@ -16,7 +16,7 @@ import { RedDirective } from './directives/red.directive';
 import { ForDirective } from './directives/for.directive';
 import { HttpClientModule } from '@angular/common/http';
 //import { HashLocationStrategy, LocationStrategy } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 /** Imports Material Design */
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -28,6 +28,12 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { ProductReadComponent } from './components/products/product-read/product-read.component';
+import { MatSelectModule } from '@angular/material/select';
+import { MatRadioModule } from '@angular/material/radio';
+import { ProductRead2Component } from './components/product/product-read2/product-read2.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 
 
@@ -43,6 +49,7 @@ import { ProductReadComponent } from './components/products/product-read/product
     RedDirective,
     ForDirective,
     ProductReadComponent,
+    ProductRead2Component,
   ],
   imports: [
     BrowserModule,
@@ -58,7 +65,13 @@ import { ProductReadComponent } from './components/products/product-read/product
     HttpClientModule,
     FormsModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatSelectModule,
+    MatRadioModule,
+    ReactiveFormsModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
   ],
   // é aqui em providers q se coloca os services qnd tem a
   // necessidade deles aparecerem fora do módulo

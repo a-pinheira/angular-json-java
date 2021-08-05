@@ -11,10 +11,10 @@ export class ProductCreateComponent implements OnInit {
  //teste para fazer um bind
  //atributoX = "qualquer"
 
- product: Product = {
-   name: '',
-   price: null
- }
+product: Product = {
+  name: '',
+  price: 1.00
+}
   //injetando um service
   constructor(private productService: ProductService,
     private router: Router) { }
