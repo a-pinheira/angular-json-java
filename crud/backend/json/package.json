@@ -11,15 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.16.3"
-<<<<<<< HEAD
-<<<<<<< HEAD
   }
   
-=======
-  }  
->>>>>>> 99ae99de898eab75d60030c8215b1103681f18dc
-}
-=======
-  }
-}
->>>>>>> eabb65e8f6aea8be7e556740313351647a542132
+ }  
