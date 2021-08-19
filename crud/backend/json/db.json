@@ -2,28 +2,28 @@
   "produtos": [
     {
       "id": 1,
-      "nome": "Caneta BIC Azul",
-      "preco": 6.1
+      "name": "Caneta BIC Azul",
+      "price": 6.1
     },
     {
       "id": 2,
-      "nome": "Notebook Dell v Pro",
-      "preco": 6549.1
+      "name": "Notebook Dell v Pro",
+      "price": 6549.1
     },
     {
       "id": 3,
-      "nome": "Impressra HP",
-      "preco": 410.89
+      "name": "Impressra HP",
+      "price": 410.89
     },
     {
       "id": 4,
-      "nome": "Notebook MacBook",
-      "preco": 6800
+      "name": "Notebook MacBook",
+      "price": 6800
     },
     {
       "id": 5,
-      "nome": "Geladeira",
-      "preco": "2600.99"
+      "name": "Geladeira",
+      "price": "2600.99"
     },
     {
       "id": 6,
