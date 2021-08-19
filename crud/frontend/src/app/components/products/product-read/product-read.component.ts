@@ -17,7 +17,7 @@ export class ProductReadComponent implements OnInit {
     //Injeta para consumir o componente
     this.productService.read().subscribe(products => {
       this.products = products
-      console.log(products)
+      console.log(this.products)
     })
   }
 

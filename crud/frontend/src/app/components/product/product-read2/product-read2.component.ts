@@ -1,8 +1,9 @@
+import { Product } from './../product.model';
 import { AfterViewInit, Component, ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTable } from '@angular/material/table';
-import { ProductRead2DataSource, ProductRead2Item } from './product-read2-datasource';
+import { ProductRead2DataSource } from './product-read2-datasource';
 
 @Component({
   selector: 'app-product-read2',
@@ -10,15 +11,21 @@ import { ProductRead2DataSource, ProductRead2Item } from './product-read2-dataso
   styleUrls: ['./product-read2.component.css']
 })
 export class ProductRead2Component implements AfterViewInit {
+  //decorators: @ViewChild que são filho da tela (da view) sobre a variavel paginator
+  //então o proprio angular irá percorrer, através do componente (var) declaro no html #paginator
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
-  @ViewChild(MatTable) table!: MatTable<ProductRead2Item>;
-  dataSource: ProductRead2DataSource;
+  @ViewChild(MatTable) table!: MatTable<Product>;
+  dataSource!: ProductRead2DataSource;
 
   /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
-  displayedColumns = ['id', 'name'];
+  displayedColumns = ['id', 'name', 'price'];
 
-  constructor() {
+ /* constructor() {
+    this.dataSource = new ProductRead2DataSource();
+  }*/
+
+  ngOnInit(){
     this.dataSource = new ProductRead2DataSource();
   }
 

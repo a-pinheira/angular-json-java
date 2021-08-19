@@ -21,6 +21,7 @@ const routes: Routes = [
     /**Segunda Rota - Componente de Cadastro de Produto*/
     path: "products",
     component: ProductCrudComponent
+    
   },
   /** Rota do produto create */
   {
